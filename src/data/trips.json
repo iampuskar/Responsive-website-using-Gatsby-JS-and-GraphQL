@@ -1,0 +1,30 @@
+[
+    {
+        "img": "../assets/images/travel-1.jpg",
+        "alt": "Spain Laguera",
+        "name": "Spain Laguera",
+        "button": "View Destination"
+
+    },
+    {
+        "img": "../assets/images/travel-2.jpg",
+        "alt": "Brazil Waterfall",
+        "name": "Brazil Waterfall",
+        "button": "View Destination"
+
+    },
+    {
+        "img": "../assets/images/travel-3.jpg",
+        "alt": "Thailand Monument",
+        "name": "Thailand Monument",
+        "button": "View Destination"
+
+    },
+    {
+        "img": "../assets/images/travel-4.jpg",
+        "alt": "India Manali",
+        "name": "India Manali",
+        "button": "View Destination"
+
+    }
+]
