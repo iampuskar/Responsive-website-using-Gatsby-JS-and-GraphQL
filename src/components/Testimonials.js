@@ -26,7 +26,7 @@ const Testimonials = () => {
           edges {
             node {
               childImageSharp {
-                fluid {
+                fluid(quality: 100) {
                     ...GatsbyImageSharpFluid
                 }
               }

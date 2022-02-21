@@ -26,7 +26,7 @@ const Tripss = ({heading}) => {
           name
           img {
             childImageSharp {
-              fluid {
+              fluid(quality: 100) {
                 ...GatsbyImageSharpFluid
               }
             }

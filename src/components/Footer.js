@@ -7,7 +7,7 @@ const Footer = () => {
     <FooterContainer>
         <FooterLinksWrapper>
             <FooterDesc>
-                <h1>Explore Now</h1>
+                <h1>Explore</h1>
                 <p>We strive to create the best experience for our customers.</p>
             </FooterDesc>
             <FooterLinkItems>
@@ -56,9 +56,9 @@ h1{
     margin-bottom: 3rem;
     color: #f26a2e;
 
-    @media screen and (max-width: 400px){
+     @media screen and (max-width: 400px){
         padding: 1rem;
-    }
+    } 
 }
 
 p{
@@ -75,6 +75,7 @@ padding: 1rem 2rem;
 
 @media screen and (max-width: 400px) {
  padding: 1rem ;
+ margin-left: 1rem;
 }
 `
 const FooterLinkTitle = styled.div`
@@ -100,5 +101,9 @@ grid-template-columns: repeat(2, 1fr);
 
 @media screen and (max-width: 820px) {
     grid-template-columns: 1fr;
+    
+}
+@media screen and (max-width: 375px) {
+ padding-left: -1rem ;
 }
 `
